@@ -28,6 +28,9 @@ namespace Game
             this.InitializeComponent();
 
             Player player = new Player();
+            Building building = new Building();
+
+            building.BWork(player.PMoney)
 
             
         }

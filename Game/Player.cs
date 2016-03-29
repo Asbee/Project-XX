@@ -11,9 +11,10 @@ namespace Game
         public string PName { get; set; }
         public string PJob { get; set; }
         public bool PFood { get; set; }
-        public int PTime { get; set; }
         public string PItems { get; set; }
 
+
+        //tee listaksi
         public double PMoney
         {
             get
@@ -45,7 +46,16 @@ namespace Game
                 PHappiness = 0;
             }
          }
-
+        public int PTime {
+            get
+            {
+                return PTime;
+            }
+            set
+            {
+                PTime = 50;
+            }
+        }
 
 
 

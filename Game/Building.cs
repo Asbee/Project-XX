@@ -9,14 +9,9 @@ namespace Game
     class Building
     {
         public string BName { get; set; }
-        
-        public void BWork()
-        {
 
-        }
-        public void BBuy()
-        {
-            
+        
+       
         }
     }
 }

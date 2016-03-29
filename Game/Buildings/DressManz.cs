@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Game.Buildings
 {
-    class DressManz
+    class DressManz : Building
     {
+        public string CasualClothes { get; set; }
+        public string Suit { get; set; }
     }
 }
